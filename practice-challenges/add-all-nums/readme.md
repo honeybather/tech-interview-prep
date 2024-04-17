@@ -3,6 +3,12 @@
 Write a function that takes in a list of numbers. It should return the sum of
 all the numbers in the list.
 
+def add_all_numbers(numbers):
+  total = 0
+  for num in numbers:
+  total += num
+  return total
+
 For example:
 
 ```
